@@ -12,7 +12,7 @@ public class MaxNumber {
         int secondMaxNumber = findSecondMaxNumber(numbers);
         int secondMinNumber = findSecondMinNumber(numbers);
         double average = calculateAverage(numbers);
-        bubbleSort(numbers);
+        arrSort(numbers);
 
         //Printing the methods
         System.out.print("Reversed array:  ");
@@ -117,7 +117,7 @@ public class MaxNumber {
         }
         return sum / array.length;
     }
-    public static void bubbleSort(int[] array) {
+    public static void arrSort(int[] array) {
         boolean swapped;
         for (int i = 0; i < array.length - 1; i++) {
             swapped = false;
