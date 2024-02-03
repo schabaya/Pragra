@@ -44,11 +44,11 @@ public class MultDArray {
             System.out.println();
         }
     }
-    for (int i = 0; i < myCharArray.length; i++) {
+   /* for (int i = 0; i < myCharArray.length; i++) {
         for (int j = 0; j < myCharArray[i].length; j++) {
             System.out.print(myCharArray[i][j] + " ");
         }
-        System.out.println(); // New line after each row
-    }
+        System.out.println(); // New line after each row*//*
+    }*/
 }
 
