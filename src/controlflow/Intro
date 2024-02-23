@@ -1,0 +1,42 @@
+There are three types of flow control statements in java
+                1. Selection/conditional Statements: based on a particular condition the selected block will executed.
+                        if
+                        if-else
+                        else-if
+                        switch
+
+                2. Iteration/Looping statements: The same code will be repeated multiple times.
+                        for
+                        for-each (introduced in 1.5 version)
+                        while
+                        do-while
+
+                3. Transfer/Jumping statements
+                        break
+                        continue
+                        goto
+                        try
+                        return
+                        assert ( introduced in 1.4 version )
+
+
+
+                1. Selection/conditional Statements: based on a particular condition the selected block will executed.
+                        if
+                        if-else
+
+                            //Case 1:
+
+                            public static void main(String[] args) {
+                                int age = 10;
+                                if (age > 20) {
+                                    System.out.println("Eligible for marriage");
+                                } else {
+                                    System.out.println("NOT eligible for marriage");
+                                }
+                            }
+                        }
+
+
+                        else-if
+                        switch
